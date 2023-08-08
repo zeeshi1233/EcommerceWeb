@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      rel="stylesheet"
+      href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <meta name="robots" content="noindex, follow" />
+  </head>
+  <body>
+    <div
+      class="wrapper"
+      style="background-image: url('images/bg-registration-form-1.jpg')"
+    >
+      <div class="inner">
+        <div class="image-holder">
+          <img src="images/istockphoto-1281150061-612x612.jpg" width="300px" alt />
+        </div>
+        <div id="form">
+          <h3>Login Form</h3>
+          <div class="form-wrapper">
+            <input
+            id="email"
+
+              type="text"
+              placeholder="Email Address"
+              class="form-control"
+            />
+            <i class="zmdi zmdi-email"></i>
+          </div>
+          <div class="form-wrapper">
+            <input
+            id="password"
+              type="password"
+              placeholder="Password"
+              class="form-control"
+            />
+            <i class="zmdi zmdi-lock"></i>
+          </div>
+        
+          <button onclick="log()" >
+            Login
+            <i class="zmdi zmdi-arrow-right"></i>
+          </button>
+          <div id="anker" >
+            <a href="reg.html">Don't Have an Account? SignUp</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"
+    ></script>
+    <script
+      defer
+      src="https://static.cloudflareinsights.com/beacon.min.js/v8b253dfea2ab4077af8c6f58422dfbfd1689876627854"
+      integrity="sha512-bjgnUKX4azu3dLTVtie9u6TKqgx29RBwfj3QXYt5EKfWM/9hPSAI/4qcV5NACjwAo8UtTeWefx6Zq5PHcMm7Tg=="
+      data-cf-beacon='{"rayId":"7f326e661c3a449c","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2023.7.0","si":100}'
+      crossorigin="anonymous"
+    ></script>
+<script type="module" src="js/auth.js"></script>
+
+  </body>
+</html>
